@@ -1,21 +1,5 @@
 # reachers
-
-#### 介绍
-
-#### 软件架构
-
-
-
-#### 安装教程
-
-
-
-#### 使用说明
-
-
-
-#### 参与贡献
-
+[gitub源码地址:https://github.com/xtc2016xtc/reachers.git]
 
 
 
