@@ -1,8 +1,10 @@
 
 const Hero = () => {
   return (
-    <section>
-      
+    <section className="w-full nav-height bg-black">
+        <div>
+          
+        </div>
     </section>
   )
 }

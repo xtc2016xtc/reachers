@@ -1,12 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { appleImg, bagImg, searchImg } from '../utils';
 import { navLists } from '../constants';
-import Home from '../App'; // 首页
 import { Mac } from '.';
 import {Store} from '.';
 import { IPhone } from '.';
 import { Support } from '.';
-
 const Lers = () => {
   return (
     <Router>
@@ -35,7 +33,7 @@ const Lers = () => {
 
       <main>
         <Routes>
-          <Route path="/" element={<Home />} /> {/* 默认主页 */}
+          <Route path="/" element={<Store />} /> {/* 默认主页 */}
           {navLists.map((nav, index) => (
             <Route
               key={index}
@@ -52,9 +50,6 @@ const Lers = () => {
 // 需要为每个导航项创建对应的组件，例如：
 // eslint-disable-next-line react/prop-types
 const NavRouter = ({ navItem }) => {
-  if (navItem === '') {
-    return <Home />;
-  }
   if (navItem === 'Mac') {
     return <Mac />;
   }
