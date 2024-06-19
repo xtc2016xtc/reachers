@@ -8,7 +8,7 @@ import IPhone from './IPhone'
 import Support from './Support'
 
 //测试组件
-
+import Lers from "./lers/Lers";
 
 export {
   Navbar,
@@ -17,5 +17,6 @@ export {
   Store,
   Mac,
   IPhone,
-  Support
+  Support,
+  Lers//需求测试组件
 }
