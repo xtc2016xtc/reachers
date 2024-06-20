@@ -23,6 +23,7 @@ const Hero = () => {
 
   useGSAP(() =>{
     gsap.to('#hero',{ opacity:1,delay:1.5 })
+    gsap.to('#cta',{ opacity:1,y:-50,delay:1.5 })
   },[])
 
   return (
@@ -39,6 +40,15 @@ const Hero = () => {
           </div>
         </div>
         
+        <div
+          id="cta"
+          className="flex flex-col items-center opacity-0 translate-y-20"
+        >
+          <a href="/Mac" className="buy">
+            buy
+          </a>
+          <p className="font-normal text-xl">$199 or $999</p>
+        </div>
     </section>
   )
 }
