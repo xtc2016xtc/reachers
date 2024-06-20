@@ -5,7 +5,7 @@ import { Mac } from '.';
 import {Store} from '.';
 import { IPhone } from '.';
 import { Support } from '.';
-const Lers = () => {
+const Navbar = () => {
   return (
     <Router>
       <header className='w-full py-5 sm:px-10 px-5 flex justify-between items-center'>
@@ -68,4 +68,4 @@ const NavRouter = ({ navItem }) => {
   return null;
 };
 
-export default Lers;
+export default Navbar;

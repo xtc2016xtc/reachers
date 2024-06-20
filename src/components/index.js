@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Highlights from "./Highlights";
 //每个路由组件
-import Store from "./Store";
+import Store from "./Store";//首页
 import Mac from './Mac';
 import IPhone from './IPhone'
 import Support from './Support'

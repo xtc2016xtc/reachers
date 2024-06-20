@@ -1,8 +1,10 @@
+import Hero from "./Hero"
+
 const Store = () => {
   return (
-    <div>
-      Store
-    </div>
+    <main> 
+      <Hero />
+    </main>
   )
 }
 
