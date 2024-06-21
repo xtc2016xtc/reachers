@@ -12,7 +12,7 @@ const Hero = () => {
       setvideoSrc(heroVideo)
     }
   }
-
+  //负责监听屏幕完成自适应大小
   useEffect(() => {
     window.addEventListener('resize',handleVideoSrcSet)
 
