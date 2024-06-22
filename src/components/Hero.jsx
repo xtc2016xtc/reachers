@@ -49,6 +49,7 @@ const Hero = () => {
           </a>
           <p className="font-normal text-xl">$199 or $999</p>
         </div>
+        
     </section>
   )
 }
