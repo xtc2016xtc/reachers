@@ -3,7 +3,6 @@
 const Lers = () => {
   return (
     <div>
-      、
     </div>
   )
 }

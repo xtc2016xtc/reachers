@@ -3,8 +3,10 @@ import { useGSAP } from "@gsap/react"
 import { heroVideo,smallHeroVideo } from "../utils"
 import { useEffect, useState } from "react"
 const Hero = () => {
+  //设置videoSrc的初始值
   const [videoSrc, setvideoSrc] = useState(window.innerWidth < 760 ? smallHeroVideo : heroVideo);
 
+  //根据屏幕大小设置videoSrc
   const handleVideoSrcSet = () => {
     if(window.innerWidth < 760) {
       setvideoSrc(smallHeroVideo)
@@ -21,6 +23,7 @@ const Hero = () => {
     }
   },[])
 
+  //使用GSAP完成动画效果
   useGSAP(() =>{
     gsap.to('#hero',{ opacity:1,delay:1.5 })
     gsap.to('#cta',{ opacity:1,y:-50,delay:1.5 })
@@ -44,10 +47,10 @@ const Hero = () => {
           id="cta"
           className="flex flex-col items-center opacity-0 translate-y-20"
         >
-          <a href="/Mac" className="buy">
+          <a href="#highlights" className="btn">
             buy
           </a>
-          <p className="font-normal text-xl">$199 or $999</p>
+          <p className="font-normal text-xl"> from $199/month or $999</p>
         </div>
         
     </section>

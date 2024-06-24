@@ -6,6 +6,8 @@ import Store from "./Store";//首页
 import Mac from './Mac';
 import IPhone from './IPhone'
 import Support from './Support'
+//轮播组件
+import VideoCarousel from "./VideoCarousl";
 
 //测试组件
 import Lers from "./lers/Lers";
@@ -18,5 +20,6 @@ export {
   Mac,
   IPhone,
   Support,
-  Lers//需求测试组件
+  Lers,//需求测试组件
+  VideoCarousel
 }
