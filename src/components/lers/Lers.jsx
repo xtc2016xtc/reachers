@@ -3,6 +3,7 @@
 const Lers = () => {
   return (
     <div>
+      2.0
     </div>
   )
 }

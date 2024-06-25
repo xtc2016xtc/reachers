@@ -1,4 +1,5 @@
 import gsap from "gsap";
+//从@gsap/react库中导入useGSAP函数，以便在React组件中使用GSAP。
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
