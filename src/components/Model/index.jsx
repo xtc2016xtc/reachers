@@ -6,7 +6,7 @@ import { yellowImg } from "../../utils"
 import * as THREE from "three"
 import { View } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { models } from "../../constants"
+import { models, sizes } from "../../constants"
 const Model = () => {
   const [size, setSize] = useState("small");
   const [model, setModel] = useState({
@@ -80,7 +80,7 @@ const Model = () => {
             <div className="flex-center">
               <ul className="color-container">
                 {models.map((item,i)=>(
-                  <li key={i} className="w-6 h-6 rounded-full mx-2" style={{ backgroundColor: item.color[0] }}
+                  <li key={i} className="w-6 h-6 rounded-full mx-2 cursor-pointer" style={{ backgroundColor: item.color[0] }}
                     onClick={() => {
                       setModel(item);
                     }}
@@ -89,6 +89,20 @@ const Model = () => {
                   </li>
                 ))}
               </ul>
+
+              <button className="size-btn-container">
+                {sizes.map(({label,value})=>(
+                  <span key={label} className="size-btn"
+                    style={{ backgroundColor: size === value ? 'white' : 'transparent', color: size === value ? 'black' : 'white'}}
+                    onClick={() => {
+                      setSize(value);
+                    }}
+                    // onClick=
+                  >
+                    {label}
+                  </span>
+                ))}
+              </button>
             </div>
           </div>
         </div>
