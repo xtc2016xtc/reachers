@@ -8,7 +8,7 @@ import IPhone from './IPhone'
 import Support from './Support'
 //轮播组件
 import VideoCarousel from "./VideoCarousl";
-
+import Model from "./Model";
 //测试组件
 import Lers from "./lers/Lers";
 
@@ -21,5 +21,6 @@ export {
   IPhone,
   Support,
   Lers,//需求测试组件
-  VideoCarousel
+  VideoCarousel,
+  Model
 }

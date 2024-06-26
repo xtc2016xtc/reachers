@@ -1,10 +1,13 @@
 import Hero from "./Hero"
-
+import Highlights from "./Highlights"
+import Model from "./Model"
 const Store = () => {
   return (
-    <main> 
+    <> 
       <Hero />
-    </main>
+      <Highlights />
+      <Model />
+    </>
   )
 }
 

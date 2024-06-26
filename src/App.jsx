@@ -1,9 +1,8 @@
-import { Highlights, Navbar} from "./components"
+import { Navbar} from "./components"
 const App = () =>{
   return ( 
     <main className="bg-black">
       <Navbar />
-      <Highlights />
     </main>
   )
 }
