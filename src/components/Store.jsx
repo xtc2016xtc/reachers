@@ -8,7 +8,6 @@ import Footer from "./Footer"
 const Store = () => {
   return (
     <> 
-    
       <Hero />
       <Highlights />
       <Model />
