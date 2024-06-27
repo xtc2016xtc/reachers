@@ -14,6 +14,10 @@ import Model from "./Model";
 //测试组件
 import Lers from "./lers/Lers";
 
+import Footer from "./Footer";
+import Features from "./Features";
+import HowItWorks from './HowItWorks'
+
 export {
   Navbar,
   Hero,
@@ -25,5 +29,8 @@ export {
   Lers,//需求测试组件
   VideoCarousel,
   Model,
-  Modelsj
+  Modelsj,
+  Footer,
+  Features,
+  HowItWorks
 }
