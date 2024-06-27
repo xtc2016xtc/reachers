@@ -1,6 +1,8 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Highlights from "./Highlights";
+//产品模型
+import Modelsj from "./Modelsj";
 //每个路由组件
 import Store from "./Store";//首页
 import Mac from './Mac';
@@ -22,5 +24,6 @@ export {
   Support,
   Lers,//需求测试组件
   VideoCarousel,
-  Model
+  Model,
+  Modelsj
 }
