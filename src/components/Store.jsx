@@ -3,8 +3,6 @@ import Highlights from "./Highlights"
 import Model from "./Model"
 import Features from "./Features"
 import HowItWorks from "./HowItWorks"
-import Footer from "./Footer"
-
 const Store = () => {
   return (
     <> 
@@ -13,7 +11,6 @@ const Store = () => {
       <Model />
       <Features />
       <HowItWorks />
-      <Footer />
     </>
   )
 }

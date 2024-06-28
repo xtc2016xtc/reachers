@@ -1,8 +1,11 @@
+import { Footer, Hero } from "./Macviews"
+
 const Mac = () => {
   return (
-    <div>
-      Mac
-    </div>
+    <>
+      <Hero />
+      <Footer />
+    </>
   )
 }
 
