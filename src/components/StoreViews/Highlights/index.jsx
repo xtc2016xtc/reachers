@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react"
 import gsap from 'gsap';
-import { rightImg, watchImg } from "../utils";
-import { VideoCarousel } from ".";
+import { rightImg, watchImg } from "../../../utils";
+import VideoCarousel from "./VideoCarousel";
 
 // 导出一个Highlights组件，用于渲染高亮显示的页面
 const Highlights = () => {

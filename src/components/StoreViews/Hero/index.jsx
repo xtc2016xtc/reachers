@@ -1,6 +1,6 @@
 import gsap from "gsap"
 import { useGSAP } from "@gsap/react"
-import { heroVideo,smallHeroVideo } from "../utils"
+import { heroVideo,smallHeroVideo } from "../../../utils"
 import { useEffect, useState } from "react"
 const Hero = () => {
   //设置videoSrc的初始值

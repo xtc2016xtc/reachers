@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { appleImg, bagImg, searchImg } from '../utils';
-import { navLists } from '../constants';
-import { Mac } from '.';
-import {Store} from '.';
-import { IPhone } from '.';
-import { Support } from '.';
+import { appleImg, bagImg, searchImg } from '../../../utils';
+import { navLists } from '../../../constants';
+import Mac from '../../Mac';
+import Store from '../../Store';
+import IPhone from '../../IPhone';
+import Support from '../../Support';
 const Navbar = () => {
   return (
     <Router>

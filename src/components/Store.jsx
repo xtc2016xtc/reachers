@@ -1,8 +1,8 @@
-import Hero from "./Hero"
-import Highlights from "./Highlights"
-import Model from "./Model"
-import Features from "./Features"
-import HowItWorks from "./HowItWorks"
+import Hero from "./StoreViews/Hero"
+import Highlights from "./StoreViews/Highlights"
+import Model from "./StoreViews/Model"
+import Features from "./StoreViews/Features"
+import HowItWorks from "./StoreViews/HowItWorks"
 const Store = () => {
   return (
     <> 

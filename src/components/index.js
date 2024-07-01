@@ -1,36 +1,22 @@
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import Highlights from "./Highlights";
-//产品模型
-import Modelsj from "./Modelsj";
+
 //每个路由组件
 import Store from "./Store";//首页
 import Mac from './Mac';
 import IPhone from './IPhone'
 import Support from './Support'
-//轮播组件
-import VideoCarousel from "./VideoCarousl";
-import Model from "./Model";
 //测试组件
 import Lers from "./lers/Lers";
 
-import Footer from "./Footer";
-import Features from "./Features";
-import HowItWorks from './HowItWorks'
+//公共组件
+import Footer from "./Layouts/Footer";
+import Navbar from "./Layouts/Navbar";
 
 export {
   Navbar,
-  Hero,
-  Highlights,
   Store,
   Mac,
   IPhone,
   Support,
   Lers,//需求测试组件
-  VideoCarousel,
-  Model,
-  Modelsj,
-  Footer,
-  Features,
-  HowItWorks
+  Footer
 }
