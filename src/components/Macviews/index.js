@@ -11,4 +11,4 @@ import GetStarted from './GetStarted';
 import Navbar from "./Navbar";
 import Stats from "./Stats";
 import Testimonials from './Testimonials'
-export { Hero,Footer,Billing,Business,Button,CardDeal,Clients,CTA,FeedbackCard,GetStarted,Navbar,Stats,Testimonials };
+export { Hero, Footer, Billing, Business, Button, CardDeal, Clients, CTA, FeedbackCard, GetStarted, Navbar, Stats, Testimonials };

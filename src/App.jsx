@@ -1,4 +1,6 @@
-import { Footer, Navbar} from "./components"
+import { Footer,Navbar } from "./components"
+//第二版导航栏
+// import { Navbar } from "./components/Macviews";
 import * as Sentry from '@sentry/react';
 const App = () =>{
   return ( 
