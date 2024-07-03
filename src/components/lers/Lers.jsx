@@ -3,7 +3,7 @@
 const Lers = () => {
   return (
     <div>
-     37.32
+     53.28
     </div>
   )
 }
