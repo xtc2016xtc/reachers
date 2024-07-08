@@ -22,15 +22,25 @@ const Hero = () => (
             {""}
             <span className="text-gradient">
               Generation
-            </span>
-            {""}
-            <br/>
-            方式
+            </span>{""}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
         </div>
+
+        <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
+            人工智能
+        </h1>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+            人工智能是计算机科学的一个分支，它致力于创建能够执行通常需要人类智能的任务的计算机程序。这些任务可能包括视觉感知、语音识别、自然语言处理、问题解决和决策制定等。人工智能的目标是使计算机能够执行任务，就像人类一样智能和灵活。
+        </p>
+      </div>
+
+      <div>
+        <img src={robot} alt="billing" 
+          className="w-[100%] h-[100%] relative z-[5]"
+        />
       </div>
     </section>
   )
