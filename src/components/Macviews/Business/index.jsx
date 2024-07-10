@@ -1,10 +1,10 @@
-import React from 'react'
+import styles from '../style'
 
 const Business = () => {
   return (
-    <div>
-      Business
-    </div>
+    <section className={`${styles.flexCenter} flex flex-1 ss:hidden`}>
+
+    </section>
   )
 }
 
