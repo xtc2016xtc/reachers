@@ -13,6 +13,9 @@ const styles = {
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+
+  card:"w-[100%] h-[100%]",
+  bread:"sm:block hidden",
 };
 
 export const layout = {

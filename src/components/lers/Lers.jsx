@@ -3,7 +3,7 @@
 const Lers = () => {
   return (
     <div>
-     1.32.22版本
+     1.36.31版本
     </div>
   )
 }
