@@ -16,6 +16,7 @@ const styles = {
 
   card:"w-[100%] h-[100%]",
   bread:"sm:block hidden",
+   bread2:"max-w-[470px] mt-5",
 };
 
 export const layout = {
