@@ -1,7 +1,9 @@
-import { Footer,Navbar } from "./components"
+import { Navbar,Footer } from "./components"
 //第二版导航栏
 // import { Navbar } from "./components/Macviews";
-import * as Sentry from '@sentry/react';
+//第二版底部
+// import { Footer } from "./components/Macviews";
+
 const App = () =>{
   return ( 
     <main className="bg-black">
@@ -11,4 +13,4 @@ const App = () =>{
   )
 }
 
-export default Sentry.withProfiler(App);
+export default App;

@@ -25,7 +25,7 @@ const Mac = () => {
           <Clients />
           <CTA />
           {/* 第二版底部导航 */}
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     </div>
